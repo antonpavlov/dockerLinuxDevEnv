@@ -5,7 +5,7 @@ Dockerfile for Ubuntu based environment for command line apps development with G
 
 Build a new image
 ```
-$ sudo docker build .
+$ sudo docker build -t mydevenv .
 ```
 Add a tag
 ```
