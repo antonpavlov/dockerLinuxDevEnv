@@ -6,4 +6,3 @@ RUN curl -L http://cpanmin.us | perl - --sudo App::cpanminus
 RUN cpanm Chart::Gnuplot
 RUN cpanm Encode
 RUN cpanm Text::Diff
-CMD ["/bin/sh", "-e", "/usr/local/bin/run"]
